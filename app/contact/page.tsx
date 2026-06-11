@@ -1,3 +1,4 @@
+'use client';
 import { useState } from 'react';
 import { Phone, Mail, MapPin, Send } from 'lucide-react';
 
@@ -9,7 +10,7 @@ export default function ContactPage() {
     message: ''
   });
   
-  const handleSubmit = (e) => {
+  const handleSubmit = (e:any) => {
     e.preventDefault();
     alert("Thank you! We'll reach out at " + formData.email + " shortly.");
     setFormData({ name: '', email: '', phone: '', message: '' });

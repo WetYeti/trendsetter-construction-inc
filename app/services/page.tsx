@@ -73,7 +73,7 @@ export default function ServicesPage() {
         <div className="max-w-4xl mx-auto text-center px-4">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">Why Trendsetter Construction Inc?</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12">
-            {["Over X years of experience", "Fully licensed and insured", "Free estimates on all jobs", "Emergency service available", "Quality guarantee on work", "Serving " + biz_city + " area"].map((item, i) => (
+            {["Over X years of experience", "Fully licensed and insured", "Free estimates on all jobs", "Emergency service available", "Quality guarantee on work", "Serving " + 'Carthage' + " area"].map((item, i) => (
               <div key={i} className="flex items-center space-x-3">
                 <div className="w-2 h-2 bg-green-500 rounded-full"></div>
                 <span className="text-slate-700">{item}</span>
