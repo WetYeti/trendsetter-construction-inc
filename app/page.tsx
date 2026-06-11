@@ -81,7 +81,7 @@ export default function HomePage() {
               </Link>
             </div>
             <div className="bg-slate-200 h-80 rounded-xl flex items-center justify-center">
-              <p className="text-slate-500">Company Image Placeholder</p>
+              <p className="text-slate-500">Serving Carthage with Pride</p>
             </div>
           </div>
         </div>
