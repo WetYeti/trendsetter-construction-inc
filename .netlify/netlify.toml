@@ -6,13 +6,13 @@ redirects = []
 [functions."*"]
 
 [[plugins]]
-origin = "config"
+origin = "default"
 package = "@netlify/plugin-nextjs"
 
 [plugins.inputs]
 
 [build]
-publish = "C:\\Users\\wetye\\AppData\\Local\\hermes\\deploy\\trendsetter-construction-inc\\.next"
+publish = "C:\\Users\\wetye\\AppData\\Local\\hermes\\deploy\\trendsetter-construction-inc\\out"
 publishOrigin = "config"
 commandOrigin = "config"
 command = "npm run build"
